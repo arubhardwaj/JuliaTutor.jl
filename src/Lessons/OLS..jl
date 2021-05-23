@@ -1,7 +1,7 @@
 prompt_1 = ""*
 "This tutorial will explain to solve linear regression using the ordinary least squares (OLS) in Julia."*
 "First, we need dataset with x and y variables to run regression with one variable."*
-"\n"*
+
 
 request_1 = "Create two variables, x and y. To make this simple, just copy paste this code: x = [10,12,11,6,7,23,14,15]" 
 evaluator_1 = ExpressionEvaluator(:x, [10,12,11,6,7,23,14,15])
