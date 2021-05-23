@@ -3,7 +3,7 @@ prompt_1 = ""*
 "First, we need dataset with x and y variables to run regression with one variable."*
 "\n"*
 
-request_1 = "Create two variables, x and y. To make this simple, just copy paste this code:" "\n" "x = [10,12,11,6,7,23,14,15]" 
+request_1 = "Create two variables, x and y. To make this simple, just copy paste this code: x = [10,12,11,6,7,23,14,15]" 
 evaluator_1 = ExpressionEvaluator(:x, [10,12,11,6,7,23,14,15])
 
 request_2 = "Now copy paste this: y = [234,521,311,201,102,71,111,900]"
